@@ -40,7 +40,7 @@ class MaioCustomAdapter : BaseAdapter() {
     }
 
     override fun getNetworkSDKVersion(): String {
-        return Version.Companion.toString()
+        return Version.instance.toString()
     }
 
     override fun getAdapterVersion(): String {
