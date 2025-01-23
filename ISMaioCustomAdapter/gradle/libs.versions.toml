@@ -1,0 +1,16 @@
+[versions]
+agp = "8.7.3"
+kotlin = "1.9.24"
+mediationsdk = "8.4.0"
+maioSdk = "2.0.1"
+playServicesAdsIdentifier = "18.2.0"
+
+[libraries]
+mediationsdk = { module = "com.ironsource.sdk:mediationsdk", version.ref = "mediationsdk" }
+maio_android_sdk = { group = "com.maio", name = "android-sdk-v2", version.ref = "maioSdk" }
+google_play_services_ads_identifier = { group = "com.google.android.gms", name = "play-services-ads-identifier", version.ref = "playServicesAdsIdentifier" }
+
+
+[plugins]
+android-library = { id = "com.android.library", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
