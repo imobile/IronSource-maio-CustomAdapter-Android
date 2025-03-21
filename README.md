@@ -3,6 +3,12 @@
 - MaioSDK >= 2.0.1 https://github.com/imobile/MaioSDK-v2-Android
 - IronSourceSDK >= 8.4.0
 
+## IronSource (LevelPlay) Custom network Key
+
+```txt
+15c071e61
+```
+
 ## Installation
 
 バージョンカタログを使用しない場合/For kotlin projects not using version catalogs:
