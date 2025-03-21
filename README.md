@@ -58,8 +58,8 @@
 </pre></code>
 
 
-- maioを導入したいプロジェクトの`libs.versions.toml`に、以下のmavenリポジトリを追加します。
-- Add maio Maven repository to your Project libs.versions.toml:
+- プロジェクトの`libs.versions.toml`に、以下のリポジトリを追加します。
+- Add these repository to your Project libs.versions.toml:
 
 <pre><code>[versions]
 maioIS = "1.0.0"
